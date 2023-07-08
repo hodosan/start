@@ -3,11 +3,11 @@
 ## directory and files
 
 /rvue  
-    |-- apps
-        |- Gemfile
-        |- Gemfile.lock
-    |-- Dockerfile  
-    |-- docker-compose.yaml  
-    |-- entrypoint.sh  
-    |-- Gemfile  
-    |-- Gemfile.lock
+|-- apps  
+　　|- Gemfile  
+　　|- Gemfile.lock  
+|-- Dockerfile  
+|-- docker-compose.yaml  
+|-- entrypoint.sh  
+|-- Gemfile  
+|-- Gemfile.lock
