@@ -5,8 +5,8 @@ RUN apt-get update -qq && apt-get install -y postgresql-client
 RUN mkdir /apps
 WORKDIR /apps
 
-COPY Gemfile       /apps/Gemfile
-COPY Gemfile.lock  /apps/Gemfile.lock
+COPY ./apps/Gemfile       /apps/Gemfile
+COPY ./apps/Gemfile.lock  /apps/Gemfile.lock
 run bundle install
 
 COPY entrypoint.sh /usr/bin/
