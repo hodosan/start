@@ -1,4 +1,4 @@
-# get start
+# get started
 
 ## directory and files
 
