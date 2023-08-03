@@ -3,7 +3,7 @@
 ## directory and files
 
 /rvue  
-|-- apps/  
+|-- apps/  空フォルダ
 |-- Dockerfile  
 |-- docker-compose.yaml  
 |-- entrypoint.sh  
