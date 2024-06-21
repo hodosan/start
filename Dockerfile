@@ -1,6 +1,7 @@
-FROM ruby:3.1.3
+FROM ruby:3.3.2
 
 RUN apt-get update -qq && apt-get install -y postgresql-client
+RUN gem update --system
 
 RUN mkdir /apps
 WORKDIR /apps
